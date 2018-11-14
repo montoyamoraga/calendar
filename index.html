@@ -10,17 +10,75 @@
     <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
     <!-- external css file -->
     <link rel="stylesheet" type="text/css" href="./css/style.css">
+
+    <style>
+    table {
+      font-family: arial, sans-serif;
+      border-collapse: collapse;
+      width: 100%;\
+    }
+    td, th {
+      border: 1px solid #dddddd;
+      text-align: left;
+      padding: 2px;
+    }
+    tr:nth-child(even) {
+      background-color: #dddddd;
+    }
+</style>
+
 </head>
 <body>
     <div id="main-text">
 
         <h1>calendar</h1>
 
-        <ul style="list-style-type:none">
-            <li>element 0th</li>
-            <li>element 1th</li>
-            <li>element 2nd</li>
-        </ul>
+        <table style="width:100%">
+          <tr>
+            <th>Date start</th>
+            <th>Date end</th>
+            <th>Type</th>
+            <th>Name</th>
+            <th>Place</th>
+            <th>Institution</th>
+            <th>Funding</th>
+            <th>Link</th>
+            <th>PDF</th>
+          </tr>
+          <tr>
+            <td>2018-11-14</td>
+            <td>2018-11-14</td>
+            <td>Workshop</td>
+            <td>Introducción a la programación creativa y arte gráfico con p5.js</td>
+            <td>Buenos Aires, Argentina</td>
+            <td><a href="http://pluscode.cc/">+CODE</a></td>
+            <td><a href="https://processingfoundation.org/">Processing Foundation</a></td>
+            <td><a href="http://pluscode.cc/portfolio_page/programacion-creativa-p5-js/">Link</a></td>
+            <td>PDF</td>
+          </tr>
+          <tr>
+            <td>2018-11-13</td>
+            <td>2018-11-13</td>
+            <td>Workshop</td>
+            <td>Taller de Live Coding</td>
+            <td>Buenos Aires, Argentina</td>
+            <td><a href="http://pluscode.cc/">+CODE</a>, <a href="http://www.unsam.edu.ar/">UNSAM</a></td>
+            <td><a href="https://processingfoundation.org/">Processing Foundation</a></td>
+            <td><a href="http://pluscode.cc/portfolio_page/taller-live-coding/">Link</a></td>
+            <td>PDF</td>
+          </tr>
+          <!-- <tr>
+            <td>Date start</td>
+            <td>Date end</td>
+            <td>Type</td>
+            <td>Name</td>
+            <td>Place</td>
+            <td>Institution</td>
+            <td>Funding</td>
+            <td>Link</td>
+            <td>PDF</td>
+          </tr> -->
+        </table>
 
     </div>
 
